@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\WebApplication2\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|c:\\users\\admin\\source\\repos\\webapplication2\\webapplication2\\content\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\content\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|c:\\users\\admin\\source\\repos\\webapplication2\\webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|C:\\Users\\ADMIN\\Downloads\\CuoiKi\\webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|c:\\users\\admin\\source\\repos\\webapplication2\\webapplication2\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|c:\\users\\admin\\downloads\\cuoiki\\webapplication2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|C:\\Users\\ADMIN\\Downloads\\CuoiKi\\webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|C:\\Users\\ADMIN\\Downloads\\CuoiKi\\webapplication2\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|c:\\users\\admin\\source\\repos\\webapplication2\\webapplication2\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|C:\\Users\\ADMIN\\Downloads\\CuoiKi\\webapplication2\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|c:\\users\\admin\\source\\repos\\webapplication2\\webapplication2\\content\\img\\hero\\hero-bg.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "AbsoluteMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|C:\\Users\\ADMIN\\Downloads\\CuoiKi\\webapplication2\\content\\img\\hero\\hero-bg.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}",
       "RelativeMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\content\\img\\hero\\hero-bg.jpg||{58961B49-13E0-48C0-9258-13CBC4D40279}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|c:\\users\\admin\\source\\repos\\webapplication2\\webapplication2\\content\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|C:\\Users\\ADMIN\\Downloads\\CuoiKi\\webapplication2\\content\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{AF0280A7-9A96-4C1E-859E-EB2EE133E802}|WebApplication2\\WebApplication2.csproj|solutionrelative:webapplication2\\content\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -34,84 +38,168 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 21,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebApplication2\\WebApplication2\\Global.asax.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\Global.asax.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebApplication2\\WebApplication2\\Global.asax.cs",
-              "RelativeToolTip": "WebApplication2\\Global.asax.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication2\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T07:16:24.562Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T16:28:05.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BundleConfig.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebApplication2\\WebApplication2\\App_Start\\BundleConfig.cs",
-              "RelativeDocumentMoniker": "WebApplication2\\App_Start\\BundleConfig.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebApplication2\\WebApplication2\\App_Start\\BundleConfig.cs",
-              "RelativeToolTip": "WebApplication2\\App_Start\\BundleConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-22T07:16:05.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "hero-bg.jpg",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebApplication2\\WebApplication2\\Content\\img\\hero\\hero-bg.jpg",
-              "RelativeDocumentMoniker": "WebApplication2\\Content\\img\\hero\\hero-bg.jpg",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebApplication2\\WebApplication2\\Content\\img\\hero\\hero-bg.jpg",
-              "RelativeToolTip": "WebApplication2\\Content\\img\\hero\\hero-bg.jpg",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-09-22T07:08:58.859Z",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication2\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T16:25:33.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "bootstrap.min.css",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebApplication2\\WebApplication2\\Content\\css\\bootstrap.min.css",
-              "RelativeDocumentMoniker": "WebApplication2\\Content\\css\\bootstrap.min.css",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebApplication2\\WebApplication2\\Content\\css\\bootstrap.min.css",
-              "RelativeToolTip": "WebApplication2\\Content\\css\\bootstrap.min.css",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAEwDoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-22T07:03:51.36Z",
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication2\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "WebApplication2\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAABMCAAAAAAAAAAAqwC4CAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-22T06:03:22.653Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\Global.asax.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\Global.asax.cs",
+              "RelativeToolTip": "WebApplication2\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T07:16:24.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "WebApplication2\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "WebApplication2\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T07:16:05.397Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebApplication2\\WebApplication2\\Content\\css\\style.css",
-              "RelativeDocumentMoniker": "WebApplication2\\Content\\css\\style.css",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebApplication2\\WebApplication2\\Content\\css\\style.css",
-              "RelativeToolTip": "WebApplication2\\Content\\css\\style.css",
-              "ViewState": "AgIAAJkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-09-22T06:58:00.909Z",
-              "EditorCaption": ""
+              "Title": "hero-bg.jpg",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\Content\\img\\hero\\hero-bg.jpg",
+              "RelativeDocumentMoniker": "WebApplication2\\Content\\img\\hero\\hero-bg.jpg",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\Content\\img\\hero\\hero-bg.jpg",
+              "RelativeToolTip": "WebApplication2\\Content\\img\\hero\\hero-bg.jpg",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-09-22T07:08:58.859Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication2\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\WebApplication2\\WebApplication2\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication2\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAUwIcAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-22T06:03:22.653Z",
-              "EditorCaption": ""
+              "DocumentIndex": 6,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\Content\\css\\style.css",
+              "RelativeDocumentMoniker": "WebApplication2\\Content\\css\\style.css",
+              "ToolTip": "C:\\Users\\ADMIN\\Downloads\\CuoiKi\\WebApplication2\\Content\\css\\style.css",
+              "RelativeToolTip": "WebApplication2\\Content\\css\\style.css",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-22T06:58:00.909Z"
             }
           ]
         }
