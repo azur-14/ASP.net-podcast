@@ -12,14 +12,36 @@ namespace WebApplication2.Controllers
         {
             return View();
         }
-
-        public ActionResult About()
+        public ActionResult getMainPage()
         {
-            ViewBag.Message = "Your application description page.";
-
+            ViewBag.Title = "getMainPage";
             return View();
         }
-
+        public ActionResult BlogDetails()
+        {
+            ViewBag.Title = "BlogDetails";
+            return View();
+        }
+        public ActionResult Episodes()
+        {
+            ViewBag.Title = "Episodes";
+            return View();
+        }
+        public ActionResult About()
+        {
+            ViewBag.Title = "About";
+            return View();
+        }
+        public ActionResult Blog()
+        {
+            ViewBag.Title = "Blog";
+            return View();
+        }
+        public ActionResult EpisodesDetails()
+        {
+            ViewBag.Title = "EpisodesDetails";
+            return View();
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

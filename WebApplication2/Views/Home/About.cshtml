@@ -1,9 +1,108 @@
 ﻿@{
-    ViewBag.Title = "About";
+        ViewBag.Title = "About";
 }
 <main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
-
-    <p>Use this area to provide additional information.</p>
+    <!-- Breadcrumb Section Begin -->
+    <section class="breadcrumb-option normal-breadcrumb spad set-bg" data-setbg="@Url.Content("~/Content/img/breadcrumb-bg.jpg")">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__text">
+                        <h2>About</h2>
+                        <div class="breadcrumb__links">
+                            <a href="@Url.Action("Index", "Home")"><i class="fa fa-home"></i> Home</a>
+                            <span>About</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Breadcrumb Section End -->
+    <!-- About Section Begin -->
+    <section class="about spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="about__text">
+                        <span>We Are Meeapod</span>
+                        <h2>About Us</h2>
+                        <p>Enjoy listening to our podcast? Consider making a donation!</p>
+                        <a href="#" class="primary-btn">Make A Donation</a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="about__item">
+                        <h6>This article is floated online with an aim to help you find the best DVD printing solution.</h6>
+                        <p>Your DVDs usually come coated with directly printable lacquer films with the ability to absorb ink. The process of directly printing the lacquer films on your DVDs is technically known as DVD printing. Your DVD printing solution lies in – inkjet DVD printing, thermal transfer DVD printing, screen DVD printing, and offset DVD printing – which you may choose according to need and requirement.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="about__item">
+                        <h6>This article is floated online with an aim to help you find the best DVD printing solution.</h6>
+                        <p>Your DVDs usually come coated with directly printable lacquer films with the ability to absorb ink. The process of directly printing the lacquer films on your DVDs is technically known as DVD printing. Your DVD printing solution lies in – inkjet DVD printing, thermal transfer DVD printing, screen DVD printing, and offset DVD printing – which you may choose according to need and requirement.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="about__pic">
+                        <img src="@Url.Content("~/Content/img/about-pic.jpg")" alt="About Us" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section End -->
+    <!-- Call To Action Section Begin -->
+    <section class="callto spad set-bg" data-setbg="@Url.Content("~/Content/img/call-about-bg.jpg")">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="callto__text">
+                        <h2>Support The Show</h2>
+                        <p>Enjoy listening to our podcast? Consider making a donation!</p>
+                        <a href="#" class="primary-btn">Make a Donation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call To Action Section End -->
+    <!-- Team Section Begin -->
+    <section class="team spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Featured Guests</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team__item">
+                        <img src="@Url.Content("~/Content/img/team/team-1.jpg")" alt="Alfred Day" />
+                        <h4>Alfred Day</h4>
+                        <span>Producer</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team__item">
+                        <img src="@Url.Content("~/Content/img/team/team-2.jpg")" alt="Jayden White" />
+                        <h4>Jayden White</h4>
+                        <span>Drummer</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="team__item">
+                        <img src="@Url.Content("~/Content/img/team/team-3.jpg")" alt="Vincent Reid" />
+                        <h4>Vincent Reid</h4>
+                        <span>Entrepreneur</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section End -->
 </main>

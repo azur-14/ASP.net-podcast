@@ -1,19 +1,84 @@
 ﻿@{
     ViewBag.Title = "Contact";
 }
-<main aria-labelledby="title">
-    <h2 id="title">@ViewBag.Title.</h2>
-    <h3>@ViewBag.Message</h3>
-
-    <address>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399<br />
-        <abbr title="Phone">P:</abbr>
-        425.555.0100
-    </address>
-
-    <address>
-        <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-        <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-    </address>
-</main>
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-option normal-breadcrumb spad set-bg"
+         data-setbg="@Url.Content("~/Content/img/breadcrumb-bg.jpg")">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h2>Contact</h2>
+                    <div class="breadcrumb__links">
+                        <a href="@Url.Action("Index", "Home")"><i class="fa fa-home"></i> Home</a>
+                        <span>Contact</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Contact Section Begin -->
+<section class="contact spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.9451972136836!2d106.61557061476745!3d10.762622292337418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175284b0de4a4c7%3A0x5c2c0c5f1e6c4e6b!2zRGFpdSBI4bqsdCBUw6FvbiBUw6F0IEjhuqFjIFRodW5n!5e0!3m2!1sen!2sbd!4v1633098748376!5m2!1sen!2sbd"
+                            height="500"
+                            style="border: 0"
+                            allowfullscreen="">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="contact__widget__item">
+                    <img src="@Url.Content("~/Content/img/icons/ci-1.png")" alt="" />
+                    <h4>Address</h4>
+                    <p>
+                        Đại học Tôn Đức Thắng, 98 Nguyễn Hữu Thọ, Tân Hưng, Quận 7, TP.HCM, Việt Nam
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="contact__widget__item">
+                    <img src="@Url.Content("~/Content/img/icons/ci-2.png")" alt="" />
+                    <h4>Phone</h4>
+                    <p>(+22) 333 333 3333 <span>(+22) 555 555 5555</span></p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="contact__widget__item">
+                    <img src="@Url.Content("~/Content/img/icons/ci-3.png")" alt="" />
+                    <h4>Working Hours</h4>
+                    <p>Open: 10am to 6pm <span>( Sunday Close)</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="contact__form">
+                    <h2>Leave Message</h2>
+                    <form action="#">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <input type="text" placeholder="Your name" />
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <input type="text" placeholder="Your Email" />
+                            </div>
+                            <div class="col-lg-12 text-center">
+                                <textarea placeholder="Your message"></textarea>
+                                <button type="submit" class="site-btn">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Contact Section End -->

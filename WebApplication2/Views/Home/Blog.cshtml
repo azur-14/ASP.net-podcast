@@ -1,0 +1,155 @@
+﻿
+@{
+    ViewBag.Title = "Blog";
+}
+
+@{
+    var blogs = new List<dynamic>
+{
+        new {
+            Id = 1,
+            Title = "Going Wireless With Your Headphones",
+            Author = "Joe Fylan",
+            Date = new DateTime(2020, 6, 17),
+            ImageUrl = "~/Content/img/blog/blog-1.jpg",
+            Description = "It seems like a good place to start. You might notice there’s a bit of a variety, almost as if one lifestyle doesn’t fit all. Sed do eiusmod tempor incididunt ut labore et dolore magna.",
+            CommentCount = 6
+        },
+        new {
+            Id = 2,
+            Title = "Importance Of The Custom Company Logo Design",
+            Author = "Joe Fylan",
+            Date = new DateTime(2020, 6, 17),
+            ImageUrl = "~/Content/img/blog/blog-2.jpg",
+            Description = "It seems like a good place to start. You might notice there’s a bit of a variety, almost as if one lifestyle doesn’t fit all. Sed do eiusmod tempor incididunt ut labore et dolore magna.",
+            CommentCount = 6
+        },
+        new {
+            Id = 3,
+            Title = "What Is The Big R For Marketing Your Business",
+            Author = "Joe Fylan",
+            Date = new DateTime(2020, 6, 17),
+            ImageUrl = "~/Content/img/blog/blog-3.jpg",
+            Description = "It seems like a good place to start. You might notice there’s a bit of a variety, almost as if one lifestyle doesn’t fit all. Sed do eiusmod tempor incididunt ut labore et dolore magna.",
+            CommentCount = 6
+        },
+        new {
+            Id = 4,
+            Title = "Cleaning And Organizing Your Computer",
+            Author = "Joe Fylan",
+            Date = new DateTime(2020, 6, 17),
+            ImageUrl = "~/Content/img/blog/blog-4.jpg",
+            Description = "It seems like a good place to start. You might notice there’s a bit of a variety, almost as if one lifestyle doesn’t fit all. Sed do eiusmod tempor incididunt ut labore et dolore magna.",
+            CommentCount = 6
+        },
+        new {
+            Id = 5,
+            Title = "Choosing The Best Audio Player Software For Your Computer",
+            Author = "Joe Fylan",
+            Date = new DateTime(2020, 6, 17),
+            ImageUrl = "~/Content/img/blog/blog-5.jpg",
+            Description = "It seems like a good place to start. You might notice there’s a bit of a variety, almost as if one lifestyle doesn’t fit all. Sed do eiusmod tempor incididunt ut labore et dolore magna.",
+            CommentCount = 6
+        }
+    };
+}
+
+<!-- Breadcrumb Section Begin -->
+<section class="breadcrumb-option normal-breadcrumb spad set-bg"
+         data-setbg="@Url.Content("~/Content/img/breadcrumb-bg.jpg")">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h2>Latest Blog</h2>
+                    <div class="breadcrumb__links">
+                        <a href="@Url.Action("Index", "Home")"><i class="fa fa-home"></i> Home</a>
+                        <span>Latest Blog</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Breadcrumb Section End -->
+<!-- Breadcrumb Section End -->
+<!-- Blog Section Begin -->
+<section class="blog spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="blog__item__list">
+                    @foreach (var blog in blogs) // Lặp qua danh sách blog giả
+                    {
+                        <div class="blog__item">
+                            <div class="blog__item__pic set-bg" data-setbg="@Url.Content(blog.ImageUrl)">
+                                <div class="label">Radio</div>
+                            </div>
+                            <div class="blog__item__text">
+                                <div class="blog__date">
+                                    <span class="icon_calendar"></span> @blog.Date.ToString("dd MMM yyyy")
+                                </div>
+                                <h4>@blog.Title</h4>
+                                <ul>
+                                    <li><span class="icon_profile"></span> @blog.Author</li>
+                                    <li><span class="fa fa-comments-o"></span> @blog.CommentCount Comments</li>
+                                </ul>
+                                <p>@blog.Description</p>
+                                <a href="@Url.Action("Details", "Blog", new { id = blog.Id })">Readmore <span class="fa fa-angle-double-right"></span></a>
+                            </div>
+                        </div>
+                    }
+                </div>
+                <div class="blog__pagination">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">Next</a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="sidebar">
+                    <div class="sidebar__search">
+                        <form action="#">
+                            <input type="text" placeholder="Search..." />
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    <div class="sidebar__categories">
+                        <h4>Categories</h4>
+                        <ul>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i> Entrepreneurship</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i> Media</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i> Tech</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i> Tutorials</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i> Business</a></li>
+                            <li><a href="#"><i class="fa fa-angle-double-right"></i> Entertainment</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar__recent">
+                        <h4>Recent Posts</h4>
+                        <a href="#" class="sidebar__recent__item">
+                            <h6>Episode 02: How To Boost Your Traffic Of Your Blog</h6>
+                            <p><span class="icon_calendar"></span> 03 Sep 2020</p>
+                        </a>
+                        <a href="#" class="sidebar__recent__item">
+                            <h6>Episode 02: Using Banner Stands To Increase Trade Show Traffic</h6>
+                            <p><span class="icon_calendar"></span> 03 Sep 2020</p>
+                        </a>
+                    </div>
+                    <div class="sidebar__tags">
+                        <h4>Popular Tags</h4>
+                        <a href="#">Episodes</a>
+                        <a href="#">Ideas</a>
+                        <a href="#">Podcasts</a>
+                        <a href="#">Video</a>
+                        <a href="#">Creative</a>
+                        <a href="#">Unique</a>
+                        <a href="#">Audio</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog Section End -->
